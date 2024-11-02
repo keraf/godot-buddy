@@ -1,0 +1,38 @@
+[package]
+name = "godot-buddy"
+version = "0.1.0"
+description = "A Tauri App"
+authors = ["you"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[build-dependencies]
+tauri-build = { version = "2.0.0-rc", features = [] }
+
+[dependencies]
+tauri = { version = "2.0.0-rc", features = ["protocol-asset"] }
+tauri-plugin-shell = "2.0.0-rc"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tauri-plugin-http = { version = "2.0.0-rc", features = ["stream"] }
+spex = "0.2.1"
+tauri-plugin-fs = "2.0.0-rc"
+chrono = { version = "0.4.38", features = ["serde"] }
+regex = "1.10.6"
+serde_yml = "0.0.12"
+sha2 = "0.10.8"
+ts-rs = { version = "10.0.0", features = ["chrono-impl"] }
+tauri-plugin-os = "2.0.0-rc"
+futures-util = "0.3.30"
+zip-extract = "0.2.1"
+tauri-plugin-dialog = "2.0.0-rc"
+tauri-plugin-log = "2.0.0-rc"
+tauri-plugin-notification = "2.0.0-rc"
+
+[target.'cfg(not(any(target_os = "android", target_os = "ios")))'.dependencies]
+tauri-plugin-autostart = "2.0.0-rc"
+tauri-plugin-single-instance = "2.0.0-rc"
+tauri-plugin-updater = "2"
+tauri-plugin-window-state = "2.0.0-rc"
+

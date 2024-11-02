@@ -1,0 +1,11 @@
+.card {
+  position: relative;
+  background-color: var(--mantine-color-body);
+}
+
+.rating {
+  position: absolute;
+  top: var(--mantine-spacing-xs);
+  left: rem(12px);
+  pointer-events: none;
+}

@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+}
+
+#root {
+  height: 100vh;
+  cursor: default;
+}
+
+* {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

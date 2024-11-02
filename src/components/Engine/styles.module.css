@@ -1,0 +1,11 @@
+.engine {
+  width: 100%;
+  display: flex;
+  gap: rem(12px);
+  margin: rem(8px) 0;
+  cursor: pointer;
+}
+
+.metadata {
+  flex-grow: 1;
+}

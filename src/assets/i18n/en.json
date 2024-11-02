@@ -1,0 +1,98 @@
+{
+  "AssetManager": {
+    "Title": "Asset Manager"
+  },
+  "Documentation": {
+    "Title": "Documentation"
+  },
+  "Downloads": {
+    "Title": "Download Manager"
+  },
+  "News": {
+    "Title": "News",
+    "Author": "By {creator} - {published}"
+  },
+  "Projects": {
+    "Title": "Projects",
+    "NoProjects": "No projects yet!",
+    "NoProjectsDesc": "You have no projects in Godot Buddy at the moment. Start by creating a new one or adding an existing project.",
+    "NoProjectsNew": "New Project",
+    "NoProjectsAdd": "Add Project",
+    "FileDialogFilter": "Godot Project File",
+    "ImportButton": "Import",
+    "CreateButton": "Create",
+    "EditButton": "Edit",
+    "RunButton": "Run",
+    "MenuRemove": "Remove project"
+  },
+  "Settings": {
+    "Title": "Settings",
+    "GeneralTitle": "General",
+    "AutoStartTitle": "Launch at start",
+    "AutoStartDesc": "Automatically open when your operating system starts",
+    "DarkModeTitle": "Dark mode",
+    "DarkModeDesc": "It's OK to prefer the dark side...",
+    "ProjectsTitle": "Projects",
+    "ProjectDoubleClickActionTitle": "Double click action",
+    "ProjectDoubleClickActionDesc": "Choose what happens when you double click on a project",
+    "VersionsTitle": "Version Manager"
+  },
+  "Modals": {
+    "ProjectAddTitle": "Add Project",
+    "ProjectNewTitle": "New Project",
+    "ProjectRemoveTitle": "Remove Project",
+    "EngineInstallTitle": "Install Godot Engine",
+    "EngineInstallDescription": "",
+    "EngineInstallType": "Engine type",
+    "EngineInstallFolder": "Installation folder",
+    "ButtonCancel": "Cancel",
+    "ButtonAdd": "Add",
+    "ButtonInstall": "Install",
+    "ButtonRemove": "Remove",
+    "ButtonCreate": "Create",
+    "ProjectName": "Project name",
+    "ProjectPath": "Project path",
+    "ProjectEngineSelect": "Choose engine to use"
+  },
+  "Versions": {
+    "Title": "Version Manager",
+    "Installed": "Installed",
+    "Available": "Available",
+    "NoInstalls": "No Godot versions found...",
+    "NoInstallsDesc": "Start by installing the Godot Engine of your choice. If you don't have any projects yet, we recommend installing the latest stable release. If you're feeling adventurous, you can install a pre-release version but expect bugs.",
+    "NoInstallsAction": "Install Godot",
+    "PrereleaseFilter": "Show pre-releases",
+    "VersionFilter": "Filter by version",
+    "BuildDotnet": ".NET/C#",
+    "BuildStandard": "Standard",
+    "TableVersion": "Version",
+    "TableTag": "Tag",
+    "TableRelease": "Release date",
+    "TableOptions": "Options",
+    "TableLastUsed": "Last used",
+    "Downloaded": "Already installed",
+    "NotDownloaded": "Install version {version} ({flavor})",
+    "DownloadProgress": "Download in progress ({downloaded}/{total} {suffix})",
+    "Installing": "Installation in progress...",
+    "LabelStable": "The stable release for this version. Recommended to use.",
+    "LabelRc": "The closest state to release, this could potentially be the stable release if the build doesn't contain critical bugs. Should be stable enough to use but you might still come across bugs. If you do, report them to the Godot team!",
+    "LabelBeta": "Feature freeze release (no new features added) with a strong focus on fixing bugs. Expect bugs in these builds. If you're feeling adventurous, you can use this on your project and report bugs to the Godot team to help shape a perfect RC release!",
+    "LabelAlpha": "Early release build. Still not feature complete and might have breaking changes with upcoming releases. Not recommended to use unless you wish to preview the latest changes in Godot.",
+    "LabelDev": "Development snapshot, new features are still in the works. Expect bugs and breaking changes between releases. Use this if you want to preview the latest changes in Godot, but it might not be the best choice for a serious game project.",
+    "MenuEngineUninstall": "Uninstall version",
+    "MenuReleaseNotes": "See release notes",
+    "LatestFilter": "Show latest releases",
+    "NoResults": "No builds found. Try changing your search settings.",
+    "ConfirmEngineUninstallBody": "Are you sure you want to uninstall Godot v{version} ({flavor}) from your system? You can re-install it anytime from the 'Available' tab.",
+    "ConfirmEngineUninstallTitle": "Uninstall Godot v{version} ({flavor})",
+    "ConfirmEngineUninstallYes": "Yes, I'm sure",
+    "ConfirmEngineUninstallNo": "Cancel"
+  },
+  "Menu": {
+    "Projects": "Projects",
+    "Versions": "Version Manager",
+    "News": "News",
+    "Downloads": "Downloads",
+    "Settings": "Settings"
+  }
+}
